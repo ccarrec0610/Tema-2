@@ -7,7 +7,7 @@
             }
             else { 
                 document.getElementById("mensaje").innerHTML = "Aprobado";
-                if (numero > 10 && numero < 0) {
+                if (numero > 10 || numero < 0) {
                     document.getElementById("mensaje").innerHTML = "La nota que has puesto no es válida";
                 }
         }
